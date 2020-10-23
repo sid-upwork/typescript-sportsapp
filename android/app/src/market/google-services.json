@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "101946132752",
+    "firebase_url": "https://nuli-prod.firebaseio.com",
+    "project_id": "nuli-prod",
+    "storage_bucket": "nuli-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101946132752:android:d779e7455b48a9174d3d95",
+        "android_client_info": {
+          "package_name": "com.nuli.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101946132752-447qnfb92e72ug46p469v695vot0aqdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nuli.app",
+            "certificate_hash": "6765ea5b3f46df307c1699ed77a2fb58da8672e1"
+          }
+        },
+        {
+          "client_id": "101946132752-2aloi7h6rtp57mh21c8v7g55gjdicm51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nuli.app",
+            "certificate_hash": "21db59bde5a54861cf5ced2c6f0f1c5e90ac7536"
+          }
+        },
+        {
+          "client_id": "101946132752-k46bflndta3dia16v38sv8eoed4bv60l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1uQotAbAMXcNg2Du-iChBe-JbTkYs_kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101946132752-k46bflndta3dia16v38sv8eoed4bv60l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "101946132752-fgvjqa2pu2gki626hdn5ftnidime8udt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nuli.app",
+                "app_store_id": "1492681304"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

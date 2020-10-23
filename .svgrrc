@@ -1,0 +1,7 @@
+{
+    "native": true,
+    "replaceAttrValues": {
+        "#008080": "{props.programSelectionGradientFill1}",
+        "#BDB76B": "{props.programSelectionGradientFill2}"
+    }
+}

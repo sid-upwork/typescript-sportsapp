@@ -1,0 +1,6 @@
+<!-- https://stackoverflow.com/questions/4189875/simplified-and-traditional-chinese-vs-regions -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel_name">推播通知</string>
+    <string name="notification_channel_description">組間計時提醒通知和活躍停止提醒通知</string>
+</resources>

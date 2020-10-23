@@ -1,0 +1,57 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-01-21 13:17:00",
+    "containerVersion": {
+        "path": "accounts/6000408915/containers/30443949/versions/1",
+        "accountId": "6000408915",
+        "containerId": "30443949",
+        "containerVersionId": "1",
+        "name": "1",
+        "container": {
+            "path": "accounts/6000408915/containers/30443949",
+            "accountId": "6000408915",
+            "containerId": "30443949",
+            "name": "com.nuli.app",
+            "publicId": "GTM-MPXZWGQ",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1579516283928",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6000408915/containers/30443949/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6000408915",
+                "containerId": "30443949",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6000408915",
+                "containerId": "30443949",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6000408915",
+                "containerId": "30443949",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6000408915",
+                "containerId": "30443949",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "6000408915",
+                "containerId": "30443949",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1579606365056",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6000408915/containers/30443949/versions/1?apiLink=version"
+    }
+}

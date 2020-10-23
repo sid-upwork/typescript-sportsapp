@@ -1,0 +1,5 @@
+CFBundleDevelopmentRegion = "en";
+NSCameraUsageDescription = "This will allow you to take pictures and save them";
+NSFaceIDUsageDescription = "This will allow Face ID to fill in your passwords";
+NSLocationWhenInUseUsageDescription = "This will allow you to receive notifications based on your location";
+NSPhotoLibraryUsageDescription = "This will allow you to select pictures from your device";

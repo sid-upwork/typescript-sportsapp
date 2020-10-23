@@ -1,0 +1,71 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "28.0.3"
+        minSdkVersion = 23
+        compileSdkVersion = 28
+        targetSdkVersion = 28
+        // Required by react-native-iap & react-native-reanimated
+        supportLibVersion = "28.0.0"
+        // Required by react-native-google-signin
+        googlePlayServicesAuthVersion = "16.0.1"
+    }
+    repositories {
+        google()
+        jcenter()
+
+        // Required by react-native-firebase/crashlytics
+        maven { url 'https://maven.fabric.io/public' }
+
+        // Required by react-native-firebase/dynamic-links
+        maven { url 'https://maven.google.com' }
+
+        // Required by react-native-onesignal
+        maven { url 'https://plugins.gradle.org/m2/' } // Gradle Plugin Portal
+
+    }
+    dependencies {
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.android.tools.build:gradle:3.5.3'
+
+        // Required by react-native-firebase
+        classpath 'com.google.gms:google-services:4.3.3'
+
+        // Required by react-native-firebase/crashlytics
+        classpath 'io.fabric.tools:gradle:1.28.1'
+
+        // Required by react-native-onesignal
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.6, 0.99.99]'
+    }
+}
+
+// Fix "out of memory" issues when building everything but debug
+// https://github.com/gradle/gradle/issues/7746#issuecomment-509286549
+subprojects {
+    tasks.withType(Test) {
+        maxHeapSize = "3g"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+        maven { url("$rootDir/../node_modules/react-native/android") }
+        // Android JSC is installed from npm
+        maven { url("$rootDir/../node_modules/jsc-android/dist") }
+
+        // Required by react-native-image-crop-picker
+        // https://github.com/ivpusic/react-native-image-crop-picker#android-1
+        maven { url 'https://maven.google.com' }
+        maven { url "https://www.jitpack.io" }
+
+        // Required by smartlook-react-native-wrapper
+        maven { url "https://sdk.smartlook.com/android/release" }
+
+        google()
+        jcenter()
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-01-21 13:15:40",
+    "containerVersion": {
+        "path": "accounts/6000408472/containers/30443407/versions/1",
+        "accountId": "6000408472",
+        "containerId": "30443407",
+        "containerVersionId": "1",
+        "name": "1",
+        "container": {
+            "path": "accounts/6000408472/containers/30443407",
+            "accountId": "6000408472",
+            "containerId": "30443407",
+            "name": "com.nuli.app",
+            "publicId": "GTM-NHMGQTB",
+            "usageContext": [
+                "IOS_SDK_5"
+            ],
+            "fingerprint": "1579516224936",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6000408472/containers/30443407/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6000408472",
+                "containerId": "30443407",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6000408472",
+                "containerId": "30443407",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6000408472",
+                "containerId": "30443407",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6000408472",
+                "containerId": "30443407",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1579606436310",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6000408472/containers/30443407/versions/1?apiLink=version"
+    }
+}

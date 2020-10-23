@@ -1,0 +1,5 @@
+CFBundleDevelopmentRegion = "zh-Hant-TW";
+NSCameraUsageDescription = "此將允許您拍照及儲存";
+NSFaceIDUsageDescription = "這將會允許您使用Face ID臉部辨識功能自動輸入密碼";
+NSLocationWhenInUseUsageDescription = "This will allow you to receive notifications based on your location";
+NSPhotoLibraryUsageDescription = "此將允許您於裝置中選取照片";

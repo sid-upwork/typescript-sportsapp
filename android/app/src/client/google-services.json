@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "84128479624",
+    "firebase_url": "https://nuli-staging.firebaseio.com",
+    "project_id": "nuli-staging",
+    "storage_bucket": "nuli-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84128479624:android:d30d2d94545993e7a4a23d",
+        "android_client_info": {
+          "package_name": "com.nuli.app.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84128479624-hrkldbcvsutj9oqph5t1j3fuojetss78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nuli.app.staging",
+            "certificate_hash": "7d4e23409d47de64d02c22d6f33f40535f67c809"
+          }
+        },
+        {
+          "client_id": "84128479624-p1hboctc4r54ss2auf4bfndtn6lqavai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nuli.app.staging",
+            "certificate_hash": "d0f40dd2f96496278b5843129e0ad5fb2c4636f8"
+          }
+        },
+        {
+          "client_id": "84128479624-9hvkj5g43t8adhmmmb6ni98f8giee0rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYOFCALvJJIl8K_BJqX4jj6GAWpmR-oqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84128479624-8f5ro8kca2n1j69o835aaj92i61magic.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "84128479624-a6h37sd1fp0qr6o41olhc92sc9cmu6v5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nuli.app.staging",
+                "app_store_id": "1492681304"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

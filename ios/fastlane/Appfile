@@ -1,0 +1,4 @@
+app_identifier "com.nuli.app" # The bundle identifier of your app
+apple_id "mobilecertificates@meliorence.com" # Your Apple email address
+
+team_id "BA85ST5WJS" # Developer Portal Team ID

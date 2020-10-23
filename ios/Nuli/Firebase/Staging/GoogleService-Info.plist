@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>84128479624-a6h37sd1fp0qr6o41olhc92sc9cmu6v5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.84128479624-a6h37sd1fp0qr6o41olhc92sc9cmu6v5</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>84128479624-p1hboctc4r54ss2auf4bfndtn6lqavai.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCh8pKI-UXAnfyngmfwZhm9t005je05jCs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>84128479624</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nuli.app.staging</string>
+	<key>PROJECT_ID</key>
+	<string>nuli-staging</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nuli-staging.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:84128479624:ios:f6aee14ed8eaa0caa4a23d</string>
+	<key>DATABASE_URL</key>
+	<string>https://nuli-staging.firebaseio.com</string>
+</dict>
+</plist>

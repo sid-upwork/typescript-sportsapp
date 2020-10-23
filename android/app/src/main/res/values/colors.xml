@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App specifics -->
+    <color name="background">#FFFFFF</color>
+    <color name="splashscreen">#DCB0FF</color>
+    <color name="accent">#D57EEA</color>
+    <color name="active">#4E30C5</color>
+    <color name="statusbar">#4E30C5</color>
+
+    <!-- Some useful classics -->
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#7A7A7A</color>
+    <color name="blue">#0044AA</color>
+    <color name="bluelight">#449DEF</color>
+    <color name="bluedark">#2F6699</color>
+    <color name="greenlight">#70C656</color>
+    <color name="greendark">#53933F</color>
+    <color name="orangelight">#F3AE1B</color>
+    <color name="orangedark">#BB6008</color>
+    <color name="black">#000000</color>
+
+</resources>

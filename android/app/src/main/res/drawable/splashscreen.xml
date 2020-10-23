@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- RN/Android splashscreen tutorials -->
+    <!-- https://medium.com/@appstud/add-a-splash-screen-to-a-react-native-app-810492e773f9 -->
+    <!-- https://medium.com/handlebar-labs/how-to-add-a-splash-screen-to-a-react-native-app-ios-and-android-30a3cec835ae -->
+    <item
+        android:drawable="@color/splashscreen"
+    />
+
+    <item>
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/splashscreen_background"
+        />
+    </item>
+</layer-list>

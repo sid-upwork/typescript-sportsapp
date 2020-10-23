@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/statusbar</item>
+
+        <!-- Remove white screen at startup -->
+        <!-- Seems to trigger a black flicker -->
+        <!-- <item name="android:windowDisablePreview">true</item> -->
+
+        <!-- Switch and slide's color -->
+        <!-- http://stackoverflow.com/a/26715076 -->
+        <!-- http://stackoverflow.com/a/27879897 -->
+        <!-- http://stackoverflow.com/a/8680341 -->
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- Fix crash with text inputs on Android -->
+        <!-- https://github.com/facebook/react-native/issues/17530#issuecomment-573978426-->
+        <item name="android:editTextBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+        <item name="android:statusBarColor">@color/statusbar</item>
+    </style>
+
+</resources>
